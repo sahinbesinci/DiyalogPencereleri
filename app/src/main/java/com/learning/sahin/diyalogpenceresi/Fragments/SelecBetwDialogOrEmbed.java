@@ -22,8 +22,8 @@ public class SelecBetwDialogOrEmbed extends DialogFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.selecting_between_dialog_or_embedding_layout, container, false);
-        View tv = v.findViewById(R.id.tvSelecBetwDiaOrEmbed);
-        ((TextView)tv).setText("This is an instance of SelecBetwDialogOrEmbed");
+        TextView tv = (TextView) v.findViewById(R.id.tvSelecBetwDiaOrEmbed);
+        tv.setText("This is an instance of SelecBetwDialogOrEmbed");
         return v;
     }
 }
