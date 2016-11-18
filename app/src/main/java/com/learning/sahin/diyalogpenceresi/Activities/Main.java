@@ -40,7 +40,7 @@ public class Main extends FragmentActivity implements View.OnClickListener{
         FragmentTransaction ft = getFragmentManager().beginTransaction();
         Fragment prev = getFragmentManager().findFragmentByTag("dialog");
         if (prev != null) {
-            ft.remove(prev).commit();
+            ft.remove(prev);
         }
         ft.addToBackStack(null);
 

@@ -59,11 +59,6 @@ public class BasicDialog extends DialogFragment implements View.OnClickListener{
     }
 
     @Override
-    public void onStop() {
-        this.dismiss();
-    }
-
-    @Override
     public void onClick(View view) {
         switch (view.getId())
         {
